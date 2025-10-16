@@ -1,11 +1,25 @@
-
+import java.util.Scanner;
+import java.util.ArrayList;
 public class HaaaaaaaHaaaaaaa {
 
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner sc= new Scanner(System.in);
+		
+		ArrayList<String>arr= new ArrayList();
+		String cout="0";
+		int a=(int)cout;
+		for(int i=0;i<a.length();i++){
+			
+			String num=sc.nextLine();
+			arr.add(num);
+			
+			
+			
+			
+		}
+		
+		System.out.println(arr);
 
 	}
 
